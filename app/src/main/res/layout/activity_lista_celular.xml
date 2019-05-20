@@ -3,36 +3,43 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ListaCelularActivity" >
+    android:layout_height="100"
+    tools:context=".ListaCelularActivity">
 
     <LinearLayout
-        android:layout_width="214dp"
-        android:layout_height="150dp"
+        android:layout_width="210dp"
+        android:layout_height="match_parent"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
-            android:layout_height="76dp"
+            android:layout_height="51dp"
             android:gravity="center_vertical"
+            android:paddingLeft="10"
+            android:paddingTop="10"
             android:text="S10"
             android:textColor="@android:color/holo_blue_light"
-            android:textSize="30" />
+            android:textSize="30"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="match_parent"
-            android:layout_height="76dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10"
+            android:paddingBottom="10"
             android:text="Samsung"
-            android:textSize="25" />
+            android:textSize="26" />
 
     </LinearLayout>
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="199dp"
-        android:layout_height="152dp"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
         android:text="R$ 9.000,00"
-        android:textSize="25" />
+        android:textSize="25"
+        android:textStyle="bold" />
 </LinearLayout>
