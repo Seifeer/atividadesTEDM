@@ -11,13 +11,6 @@
         android:theme="@style/AppTheme">
         <activity android:name=".ListaCelularActivity"></activity>
         <activity android:name=".listagensActivity" />
-        <activity android:name=".input1Activity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity android:name=".Tela2IntentResultActivity" />
         <activity android:name=".tela1IntentResultActivity" />
         <activity android:name=".MainActivity" />
